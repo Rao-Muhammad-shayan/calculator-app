@@ -1,0 +1,31 @@
+.browse{
+   padding-top: 1rem;
+    padding-left: 0.6rem;
+  
+    border-color: black;
+    border-style: solid; 
+}
+.botborder1{
+    height: 2px;
+    width: 90px;
+    margin-left: 1.2rem;
+   margin-top: 0.5rem;
+   cursor: pointer;
+   transition: 0,3s ease;
+}
+.botborder1:hover{
+    transform: translateX(-0.3rem);
+}
+ .botborder2{
+    height: 2px;
+    width: 90px;
+    margin-left: 1.7rem;
+    margin-top: 0.5rem;
+} 
+.botborder2:hover{
+    transform: translateX(-0.3rem);
+}
+.img{
+    width: 40px;
+    margin-top: 1rem;
+} 
