@@ -28,4 +28,12 @@
 .img{
     width: 40px;
     margin-top: 1rem;
-} 
+}
+
+.vb{
+  border: 3px solid white;
+  padding: 0.5rem 10rem;
+}
+.vb:hover{
+  background-color: azure;
+}
