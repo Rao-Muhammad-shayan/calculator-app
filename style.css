@@ -3,7 +3,7 @@ border: none;
 outline: none;
 }.input-row{
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     position: relative;
     left: 0.6rem;
     border: 2px solid black;
@@ -46,4 +46,19 @@ button:hover{
     background: #ffffffb6;
     color: black;
     font-weight: bold;
+}
+@media only screen and (max-width:1960px) {
+    .input-row input{
+        background-color: transparent;
+        width: 80%;
+       position: absolute;
+       top: 4rem;
+       font-size: 2.3rem;
+       padding: 0.5rem 1rem;
+       color: aliceblue;
+     
+     }   
+     .input-row{
+        height: 13vh;
+     }
 }

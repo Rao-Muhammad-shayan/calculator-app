@@ -13,6 +13,23 @@ if(input.value=="undefined"){
     input.value="";
 }
 }
+if (data == "+/-") {
+  
+    if (!isNaN(input.value)) {
+      
+        if (input.value.startsWith("-")) {
+          
+            input.value = input.value.slice(1);
+        } else {
+            
+            input.value = "-" + input.value;
+        }
+    } else {
+   
+        input.value = "Invalid input";
+    }
+}
+
 else if(data=="C"||data=="CE"){
     input.value=""
     history=input.value;
